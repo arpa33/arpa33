@@ -1,10 +1,6 @@
 """Goat skills."""
 
-import importlib
-import secrets
-import time
-from dataclasses import is_dataclass
-from typing import (
+
     Any,
     Dict,
     Literal,
@@ -14,7 +10,11 @@ from typing import (
     get_origin,
     get_type_hints,
 )
-
+import importlib
+import secrets
+import time
+from dataclasses import is_dataclass
+from typing import (
 import httpx
 from eth_account import Account
 from eth_utils import encode_hex
