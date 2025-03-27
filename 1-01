@@ -2,13 +2,7 @@
 
 
     Any,
-    Dict,
-    Literal,
-    Type,
-    Union,
-    get_args,
-    get_origin,
-    get_type_hints,
+  
 )
 import importlib
 import secrets
@@ -61,8 +55,13 @@ def create_smart_wallet(api_key: str, signer_address: str) -> Dict:
                 "address": signer_address,
             },
         },
-    }
-
+   Dict,
+    Literal,
+    Type,
+    Union,
+    get_args,
+    get_origin,
+    get_type_hints,
     with httpx.Client() as client:
         try:
             response = client.post(url, headers=headers, json=js)
