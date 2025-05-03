@@ -6,7 +6,8 @@ from goat import WalletClientBase
 from goat.classes.plugin_base import PluginBase
 from goat_adapters.langchain import get_on_chain_tools
 from goat_wallets.crossmint import crossmint
-    Any,from eth_account import Account
+TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
+crossmint_chains = {    Any,from eth_account import Account
 
 from goat import WalletClientBase
  from eth_account import Account 
@@ -24,8 +25,7 @@ from utils.chain import ChainConfig, NetworkType
 
 from .base import base_url
 
-# TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
-crossmint_chains = {
+# 
     "base": ChainConfig(
         "base",
         NetworkType.Mainnet,
