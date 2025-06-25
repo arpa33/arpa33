@@ -8,7 +8,14 @@
                 "address": signer_address,
             },
         },
-   Dict,
+ 
+    js = {
+        "type": "evm-smart-wallet",
+        "config": {
+            "adminSigner": {
+                "type": "evm-keypair",
+                "address": signer_address,
+            },
     Literal,
     Type,
    "base": ChainConfig(
