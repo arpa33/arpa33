@@ -8,11 +8,7 @@
                 "address": signer_address,
             },
         },
-    ),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
-from goat import WalletClientBase
- from eth_account import Account 
-)from eth_utils import encode_hex
-    "arbitrum": ChainConfig(
+    
 
 from goat_wallets.crossmint import crossmint
 
@@ -26,7 +22,11 @@ from goat_wallets.crossmint import crossmint
             },crossmint_chains = {    Any,from eth_account import Account
 
 
-    Literal,
+    Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
+from goat import WalletClientBase
+ from eth_account import Account 
+)from eth_utils import encode_hex
+    "arbitrum": ChainConfig(
     Type,
    "base": ChainConfig(
         "base",
