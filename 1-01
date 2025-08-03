@@ -25,7 +25,10 @@ from goat_wallets.crossmint import crossmint
                 "type": "evm-keypair",
                 "address": signer_address,
             },crossmint_chains = {    Any,from eth_account import Account
-
+import httpx
+from goat_wallets.crossmint import crossmint
+    Any,from eth_account import Account
+from eth_utils import encode_hex
 
  
    "base": ChainConfig(
@@ -34,10 +37,7 @@ from goat_wallets.crossmint import crossmint
         "https://base-mainnet.g.alchemy.com/v2/demo",
         "https://base-mainnet.g.alchemy.com/v2/demo",
  
-import httpx
-from goat_wallets.crossmint import crossmint
-    Any,from eth_account import Account
-from eth_utils import encode_hex
+
 from goat import WalletClientBase
 
 from abstracts.skill import SkillStoreABC
