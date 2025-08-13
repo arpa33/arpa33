@@ -7,6 +7,10 @@
                 "type": "evm-keypair",
                 "address": signer_address,
             },
+        "config": {
+            "adminSigner": {
+                "type": "evm-keypair",
+                "address": signer_address,
         },
        Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
 from goat import WalletClientBase
@@ -20,10 +24,6 @@ from goat_wallets.crossmint import crossmint
 
     js = {
         "type": "evm-smart-wallet",
-        "config": {
-            "adminSigner": {
-                "type": "evm-keypair",
-                "address": signer_address,
             },crossmint_chains = {    Any,from eth_account import Account
 import httpx
 from goat_wallets.crossmint import crossmint
