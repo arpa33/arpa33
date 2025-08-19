@@ -21,16 +21,14 @@ from goat import WalletClientBase
 
 from goat_wallets.crossmint import crossmint
 
-
+  },
+        "config": {
+            "adminSigner": {
+                "type": "evm-keypair",
+                "address": signer_address,
     js = {
         "type": "evm-smart-wallet",
-            },crossmint_chains = {    Any,from eth_account import Account
-import httpx
-from goat_wallets.crossmint import crossmint
-    Any,from eth_account import Account
-from eth_utils import encode_hex
-
- 
+            },crossmint_chains = {    Any,from eth_account import Accou
    "base": ChainConfig(
         "base",
         NetworkType.Mainnet,
