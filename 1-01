@@ -18,7 +18,11 @@ from goat import WalletClientBase
 )from eth_utils import encode_hex
     "arbitrum": ChainConfig(
     Type,
-
+ "base": ChainConfig(
+        "base",
+        NetworkType.Mainnet,
+        "https://base-mainnet.g.alchemy.com/v2/demo",
+        "https://base-mainnet.g.alchemy.com/v2/demo",
 from goat_wallets.crossmint import crossmint
 
   },
@@ -29,11 +33,7 @@ from goat_wallets.crossmint import crossmint
     js = {
         "type": "evm-smart-wallet",
             },crossmint_chains = {    Any,from eth_account import Accou
-   "base": ChainConfig(
-        "base",
-        NetworkType.Mainnet,
-        "https://base-mainnet.g.alchemy.com/v2/demo",
-        "https://base-mainnet.g.alchemy.com/v2/demo",
+  
  
 
 from goat import WalletClientBase
