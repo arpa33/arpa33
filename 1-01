@@ -34,7 +34,10 @@ from goat_wallets.crossmint import crossmint
         "type": "evm-smart-wallet",
             },crossmint_chains = {    Any,from eth_account import Accou
   
- 
+  "arbitrum",
+        NetworkType.Mainnet,
+        "https://arb-mainnet.g.alchemy.com/v2/demo",
+        "https://arb-mainnet.g.alchemy.com/v2/demo",
 
 from goat import WalletClientBase
 
@@ -46,10 +49,7 @@ from .base import base_url
 
 # 
  
-        "arbitrum",
-        NetworkType.Mainnet,
-        "https://arb-mainnet.g.alchemy.com/v2/demo",
-        "https://arb-mainnet.g.alchemy.com/v2/demo",
+       
     ),
 }
 import importlib
