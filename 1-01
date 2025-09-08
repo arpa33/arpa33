@@ -1,13 +1,6 @@
 """Goat skills."""
 
-    js = {
-        "type": "evm-smart-wallet",
-        "config": {
-            "adminSigner": {
-                "type": "evm-keypair",
-                "address": signer_address,
-            },
-        "config": {
+    js
             "adminSigner": {
                 "type": "evm-keypair",
                 "address": signer_address,
@@ -25,7 +18,14 @@ from goat import WalletClientBase
         "https://base-mainnet.g.alchemy.com/v2/demo",
 from goat_wallets.crossmint import crossmint
 
-  },
+  }, = {
+        "type": "evm-smart-wallet",
+        "config": {
+            "adminSigner": {
+                "type": "evm-keypair",
+                "address": signer_address,
+            },
+        "config": {
         "config": {
             "adminSigner": {
                 "type": "evm-keypair",
