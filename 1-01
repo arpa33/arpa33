@@ -4,7 +4,10 @@
             "adminSigner": {
                 "type": "evm-keypair",
                 "address": signer_address,
-        },
+        },NetworkType.Mainnet,
+        "https://base-mainnet.g.alchemy.com/v2/demo",
+        "https://base-mainnet.g.alchemy.com/v2/demo",
+from goat_wallets.crossmint import crossmint
        Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
 from goat import WalletClientBase
  from eth_account import Account 
@@ -13,10 +16,7 @@ from goat import WalletClientBase
     Type,
  "base": ChainConfig(
         "base",
-        NetworkType.Mainnet,
-        "https://base-mainnet.g.alchemy.com/v2/demo",
-        "https://base-mainnet.g.alchemy.com/v2/demo",
-from goat_wallets.crossmint import crossmint
+        
 
   }, = {
         "type": "evm-smart-wallet",
