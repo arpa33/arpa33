@@ -10,7 +10,10 @@ from goat import WalletClientBase
     Type,
  "base": ChainConfig(
         "base",
-        
+          Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
+from goat import WalletClientBase
+ from eth_account import Account 
+)from eth_utils import encode_hex
 
   }, = {
         "type": "evm-smart-wallet",
