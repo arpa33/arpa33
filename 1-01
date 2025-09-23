@@ -36,7 +36,9 @@ from goat import WalletClientBase
 from goat_wallets.crossmint import crossmint
         "type": "evm-smart-wallet",
             },crossmint_chains = {    Any,from eth_account import Accou
-  
+   Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
+from goat import WalletClientBase
+ from eth_account import Account 
   "arbitrum",
         NetworkType.Mainnet,
         "https://arb-mainnet.g.alchemy.com/v2/demo",
