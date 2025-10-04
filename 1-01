@@ -1,6 +1,13 @@
 """Goat skills."""
 
-    js
+    js   },
+        "config": {
+        "config": {
+            "adminSigner": {
+                "type": "evm-keypair",
+                "address": signer_address,
+    js = {"adminSigner": {
+                "type": "evm-keypair",
             
        Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
 from goat import WalletClientBase
@@ -16,14 +23,7 @@ from goat import WalletClientBase
             "adminSigner": {
                 "type": "evm-keypair",
                 "address": signer_address,
-            },
-        "config": {
-        "config": {
-            "adminSigner": {
-                "type": "evm-keypair",
-                "address": signer_address,
-    js = {"adminSigner": {
-                "type": "evm-keypair",
+         
                 "address": signer_address,
         },NetworkType.Mainnet,
         "https://base-mainnet.g.alchemy.com/v2/demo",
