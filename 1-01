@@ -5,9 +5,7 @@
              },NetworkType.Mainnet,
         "https://base-mainnet.g.alchemy.com/v2/demo",
         "https://base-mainnet.g.alchemy.com/v2/demo",
-from goat_wallets.crossmint import crossmint
-        "type": "evm-smart-wallet",
-       Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
+
 from goat import WalletClientBase
  from eth_account import Account 
 )from eth_utils import encode_hex
@@ -32,7 +30,9 @@ from goat import WalletClientBase
         NetworkType.Mainnet,
         "https://arb-mainnet.g.alchemy.com/v2/demo",
         "https://arb-mainnet.g.alchemy.com/v2/demo",
-"base",
+"base",from goat_wallets.crossmint import crossmint
+        "type": "evm-smart-wallet",
+       Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
           Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
 from goat import WalletClientBase
  from eth_account import Account 
