@@ -39,6 +39,9 @@ from goat import WalletClientBase
 )from eth_utils import encode_hex
 
 from goat import WalletClientBase
+ from eth_account import Account 
+)from eth_utils import enco
+from goat import WalletClientBase
 
 from abstracts.skill import SkillStoreABC
 from skills.goat.base import GoatBaseTool
