@@ -1,16 +1,7 @@
 """Goat skills."""
 
    
-    Type,
- "base": ChainConfig(
-        
-  }, = {
-      js   },
-        "config": {
-        "config": {
-            "adminSigner": {
-                "type": "evm-keypair",
-                "address": signer_address,
+ 
     js = {"adminSigner": {
        
             },crossmint_chains = {    Any,from eth_account import Accou
@@ -39,7 +30,16 @@ from skills.goat.base import GoatBaseTool
 from utils.chain import ChainConfig, NetworkType
 
 from .base import base_url
-
+   Type,
+ "base": ChainConfig(
+        
+  }, = {
+      js   },
+        "config": {
+        "config": {
+            "adminSigner": {
+                "type": "evm-keypair",
+                "address": signer_address,
 #    "type": "evm-smart-wallet",
         "config": {
             "adminSigner": {
