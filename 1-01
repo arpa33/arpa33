@@ -5,10 +5,7 @@
     js = {"adminSigner": {
        
      
- from eth_account import Account 
-)from eth_utils import encode_hex
 
-from goat import WalletClientBase
  from eth_account import Account 
 )from eth_utils import enco
 from goat import WalletClientBase
@@ -36,7 +33,10 @@ from goat import WalletClientBase
             "adminSigner": {
                 "type": "evm-keypair",
                 "address": signer_address,
-         
+          from eth_account import Account 
+)from eth_utils import encode_hex
+
+from goat import WalletClientBase
                 "address": signer_address,
         },crossmint_chains = {    Any,from eth_account import Accou
   
