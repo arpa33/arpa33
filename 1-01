@@ -4,16 +4,7 @@
  
     js = {"adminSigner": {
        
-            },crossmint_chains = {    Any,from eth_account import Accou
-  
-        NetworkType.Mainnet,
-        "https://arb-mainnet.g.alchemy.com/v2/demo",
-        "https://arb-mainnet.g.alchemy.com/v2/demo",
-"base",from goat_wallets.crossmint import crossmint
-        "type": "evm-smart-wallet",
-       Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
-          Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
-from goat import WalletClientBase
+     
  from eth_account import Account 
 )from eth_utils import encode_hex
 
@@ -47,7 +38,16 @@ from goat import WalletClientBase
                 "address": signer_address,
          
                 "address": signer_address,
- 
+        },crossmint_chains = {    Any,from eth_account import Accou
+  
+        NetworkType.Mainnet,
+        "https://arb-mainnet.g.alchemy.com/v2/demo",
+        "https://arb-mainnet.g.alchemy.com/v2/demo",
+"base",from goat_wallets.crossmint import crossmint
+        "type": "evm-smart-wallet",
+       Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
+          Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
+from goat import WalletClientBase
        
                 "type": "evm-keypair",
              },NetworkType.Mainnet,
