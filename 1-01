@@ -6,13 +6,6 @@
        
      
 
- from eth_account import Account 
-)from eth_utils import enco
-from goat import WalletClientBase
-
-from abstracts.skill import SkillStoreABC
-from skills.goat.base import GoatBaseTool
-from utils.chain import ChainConfig, NetworkType
 
 from .base import base_url
    Type,
@@ -48,7 +41,14 @@ from goat import WalletClientBase
        Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
           Literal,),TODO: add the configuration of the chains to a proper place. https://docs.crossmint.com/introduction/supported-chains
 from goat import WalletClientBase
-       
+        from eth_account import Account 
+)from eth_utils import enco
+from goat import WalletClientBase
+
+from abstracts.skill import SkillStoreABC
+from skills.goat.base import GoatBaseTool
+from utils.chain import ChainConfig, NetworkType
+
                 "type": "evm-keypair",
              },NetworkType.Mainnet,
         "https://base-mainnet.g.alchemy.com/v2/demo",
