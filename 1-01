@@ -25,3 +25,8 @@ def predict_emotion(model, eye_img):
         probs = F.softmax(output, dim=1)
         emotion_idx = probs.argmax().item()
         return EMOTIONS[emotion_idx], probs[0][emotion_idx].item()
+
+def load_model(model_path="model/emotion_model.pt"):
+    model = torch.load(model_path, map_location="cpu")
+    model.eval()
+    return model
